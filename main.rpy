@@ -1,2 +1,2 @@
 label start:
-    
+    play 
