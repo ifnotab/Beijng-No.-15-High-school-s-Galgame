@@ -4,11 +4,11 @@ label start:
     
     #The first scene
     transform random_shake:
-    block:
-        xoffset renpy.random.randint(-15, 15)
-        yoffset renpy.random.randint(-10, 10)
-        pause 0.03
-        repeat
+        block:
+            xoffset renpy.random.randint(-15, 15)
+            yoffset renpy.random.randint(-10, 10)
+            pause 0.03
+            repeat
     #Upload the background image
     image ship = "photos/0.jpg"
     #Show the background image
