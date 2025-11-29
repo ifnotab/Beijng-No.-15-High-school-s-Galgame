@@ -8,7 +8,7 @@ label start:
         block:
             linear 0.05 xoffset 10
             linear 0.05 xoffset -10
-            repeat
+            repeat 5    
     #Upload the background image
     image ship = "photos/0.jpg"
     #Show the background image
@@ -54,4 +54,3 @@ label start:
     pause 0.1
     #stop camera movement
     show sunrise at truecenter
-    
