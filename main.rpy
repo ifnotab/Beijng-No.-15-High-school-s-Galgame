@@ -5,15 +5,15 @@ label start:
     #The first scene
     transform random_shake:
         block:
-            xoffset renpy.random.randint(-15, 15)
-            yoffset renpy.random.randint(-10, 10)
+            linear 0.05 xoffset 10
+            linear 0.05 xoffset -10
             pause 0.03
             repeat
     #Upload the background image
     image ship = "photos/0.jpg"
     #Show the background image
     scene ship
-    show ship at truecenter at random_shake
+    show ship at truecenter,random_shake
     #Define a character
     define robin = Character("Robin", color="#cd8b35")
     define pa1   = Character("Passenger 1", color="#357ec7")
