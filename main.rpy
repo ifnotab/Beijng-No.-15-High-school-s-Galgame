@@ -59,3 +59,5 @@ label start:
     robin "我怎么会在游轮上？我应该在......呃！"
     robin "不列！我记不起来了，我到底为什么在......"
     #Telephone
+    play sound "sounds/1.ogg"
+     
