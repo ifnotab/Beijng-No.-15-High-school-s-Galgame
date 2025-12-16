@@ -2,6 +2,8 @@ label start:
     #This is the beginning video
     $ renpy.movie_cutscene("videos/1.webm")
 
+label Scene_1:
+
     #Scene 1
     #The shaking effect
     transform random_shake:
@@ -31,6 +33,8 @@ label start:
     #Scene change with black screen
     scene black
     with Fade(1.0)
+
+label Scene_2:
 
     #Scene 2
     #Upload the background image
@@ -64,6 +68,8 @@ label start:
     "一个无感情的女声"
     "“先生，您醒了？今天的早餐尚未开始供应，但赌场仍处于开放时间，您不去试试手气吗？”"
     robin "“也许，我应该带上筹码去看看。”"
+
+label Scene_3:
 
     #Scene 3
     #Upload the background image
