@@ -1,3 +1,6 @@
+#Here is the initial settings for this game
+define config.menu_include_disabled = True 
+
 label start:
     #This is the beginning video
     $ renpy.movie_cutscene("videos/1.webm")
@@ -78,7 +81,10 @@ label Scene_3:
     scene cor at truecenter
 
     menu:
-        "正中到右侧赌场":
-            "1"
-        "左侧酒馆" if False:
+        "到右侧赌场":
+            jump Scene_4
+        "酒馆" if False:
             pass
+        "回到走廊" if False:
+            pass
+    
