@@ -83,8 +83,22 @@ label Scene_3:
     menu:
         "到右侧赌场":
             jump Scene_4
-        "酒馆" if False:
+        "酒馆 (熄灯不可选)" if False:
             pass
-        "回到走廊" if False:
+        "回到走廊 (暂时不可选)" if False:
             pass
     
+label Scene_4:
+
+    #Scene 4
+    #Upload the background image
+    image cas = "photos/0.jpg"
+
+    #Choose 
+    menu:
+        "到右侧赌场":
+            jump Scene_4
+        "酒馆 (熄灯不可选)" if False:
+            pass
+        "回到走廊 (暂时不可选)" if False:
+            pass
